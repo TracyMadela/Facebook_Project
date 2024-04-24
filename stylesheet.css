@@ -1,0 +1,85 @@
+.header{
+    justify-content: space-between; /* To evenly distribute columns */
+    align-items: center; /* Vertically center items */
+    height: 80px;
+    padding-bottom: 60px;
+  }
+.profile{
+    width: 30px;
+}
+.header{
+    background-color: #039BE5;
+}
+.profile_pic{
+    width: 70px;
+}
+.side_col{
+    background-color: rgb(126, 126, 126);
+}
+.container-fluid{
+   margin-top: 6px;
+}
+#friends{
+    width: 20px;
+}
+
+.online{
+    position:absolute;
+    right: 80%;
+    top:10;
+    z-index: 0;
+}
+
+.width_facebook{
+    height: 80px;
+    width: 1320px;
+}
+
+.logoName,.drop {
+    display: inline-block;
+    margin-left: 5px; 
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+  }
+.nev_color{
+    background-color: white;
+
+  }
+.background_c, .contact-list {
+    background-color: #f3f3f3;
+}
+
+.picSet{
+    
+      width: 350px; 
+      border: 2px solid grey;
+      border-radius: 15px;
+      object-fit: contain;
+
+    }
+    
+.photo{
+    position: absolute;
+    left: 35%;
+}
+.card_Style{
+    position: relative;
+    left: 10%;
+
+}
+
+aside {
+    overflow-y: auto; 
+    height: calc(100vh - 50px);
+  }
+  
+  .main-content {
+    overflow-y: hidden;
+  }
+  li {
+    border: 0;
+  }
+  
+
+
